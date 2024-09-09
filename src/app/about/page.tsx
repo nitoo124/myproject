@@ -1,16 +1,14 @@
-import React from 'react'
 import Nav from '@/components/nav'
 import Footer from '@/components/footer'
+import React from 'react'
 
-function page() {
+function About() {
   return (
     <>
-      <Nav/>
-
-      <div>
-        <h1 className=' font-bold   mt-10 text-center text-3xl  text-cyan-700'>Home Page</h1>
-
-        <p className=' mt-7 text-center bg-slate-200 mr-10 ml-10 pt-7 pb-5'>
+    <Nav/>
+    <div className=' '>
+      <h1 className=' font-bold text-4xl mt-8 text-cyan-700 text-center'>About us</h1>
+      <p className=' mt-7 text-center bg-slate-200 mr-10 ml-10 pt-7 pb-5'>
         Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia nemo tenetur quasi <br/> 
         pariatur illo repellat eius aliquid! Quia veniam repellendus ratione possimus <br/>
         illo sit pariatur laborum quaerat velit Lorem ipsum dolor sit amet adipisicing elit.<br/>
@@ -30,15 +28,11 @@ function page() {
 
          
          </p>
-
-        
+      
       </div>
-
-      <Footer/>
-
-
+    <Footer/>
     </>
   )
 }
 
-export default page
+export default About
